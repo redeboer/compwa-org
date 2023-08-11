@@ -11,4 +11,5 @@ dependencies:
         -c .constraints/py3.8.txt
         -e .[dev]
 variables:
+  JULIAUP_CHANNEL: 1.6.7 # LTS
   PYTHONHASHSEED: 0
